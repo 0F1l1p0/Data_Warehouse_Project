@@ -1,10 +1,23 @@
-
+/*
 ==================================================
 STORED PROCEDURE SCRIPT
 
+This script creates a stored procedure that loads data into the bronze schema from
+the external CSV files.
+
+What is being done within the procedure itself:
+	-Truncating the bronze tables before it loads the data 
+	-Uses BULK insert to load the data from the CSV files into the bronze tables
+
+Additionally the procedure does not accept any paramaters or return any values,
+other than printed information for each table like the time it took to fill each one 
+and the time it took to execute the entire procedure.
+
+USE
+	EXEC bronze.load_bronze_schema
 
 ==================================================
-
+*/
 
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze_schema AS
