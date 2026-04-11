@@ -1,4 +1,14 @@
+/*
+===========================================================
+CREATE TABLES SCRIPT:
 
+This script creates all the needed tables and additionally 
+truncates tables if they already exist within the database.
+
+Additional info is added on within the code itself.
+
+===========================================================
+*/
 
 
 
