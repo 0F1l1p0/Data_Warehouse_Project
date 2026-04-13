@@ -1,5 +1,23 @@
 /*
+==================================================
+STORED PROCEDURE SCRIPT
 
+This script creates a stored procedure that loads data into the silver schema from
+the bronze schema.
+
+What is being done within the procedure itself:
+	-Its performing the standard ETL(Extract, Transform, Load) process from the bronze schema
+	tables into the silver schema tables
+	-Truncates Silver tables
+	-Inserts transformed and cleaned data from the bronze layer to the silver layer
+Additionally the procedure does not accept any paramaters or return any values,
+other than printed information for each table like the time it took to fill each one 
+and the time it took to execute the entire procedure.
+
+USE
+	EXEC bronze.load_bronze_schema
+
+==================================================
 */
 CREATE OR ALTER PROCEDURE Silver.load_silver_schema AS
 BEGIN
