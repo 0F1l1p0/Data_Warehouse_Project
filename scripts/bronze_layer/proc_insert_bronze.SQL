@@ -119,7 +119,7 @@ BEGIN
 			--ERP SOURCES
 	
 			PRINT '======================================================================'
-			PRINT 'Loading CRM Tables'
+			PRINT 'Loading ERP Tables'
 			PRINT '======================================================================'
 
 			SET @Table='erp_cust_az12'
