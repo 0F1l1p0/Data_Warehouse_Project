@@ -1,3 +1,6 @@
+/*
+
+*/
 CREATE OR ALTER PROCEDURE Silver.load_silver_schema AS
 BEGIN
 	BEGIN TRY
