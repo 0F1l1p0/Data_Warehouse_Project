@@ -33,5 +33,5 @@ Handle SQL-based analytics in order to delvier detailed insights into
   -Customer Behaviour
   -Sales Trends
   -Product Performance
-![image alt](https://github.com/0F1l1p0/Data_Warehouse_Project/blob/825974c18300af07ed0abb70b20a5be5c0b7e0bc/docs/DataWareHouse%20Flow%20Diagram.drawio)
+![image alt](https://github.com/0F1l1p0/Data_Warehouse_Project/blob/0d45e0d12ae38edfae23dcbe3582d33a32414fb2/docs/DataWareHouse%20Diagram.drawio.png)
 
