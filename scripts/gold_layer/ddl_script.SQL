@@ -1,5 +1,9 @@
 /*
+This script creates all the needed views for the Gold schema layer
+in the data warehouse. The Gold layer is meant to represent a Star Schema.
 
+Each of the views perform transformations using the data from the silver layer
+tables to produce business-ready information
 
 */
 
