@@ -1,6 +1,6 @@
 Data Dictionary for Gold Layer
 
-gold.dim_customers
+**gold.dim_customers**
 
 This table stores customers details 
 
