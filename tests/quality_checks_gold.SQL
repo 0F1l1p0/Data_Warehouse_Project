@@ -1,3 +1,12 @@
+/*
+=========================================================
+Quality Checks
+=========================================================
+This script is meant for quality checking to validate the consistency 
+and integrity of the Gold layer. These checks are meant for checking the
+integrity between the views and tables.
+*/
+
 -- =========================================================
 -- Checking 'gold.product_key'
 -- =========================================================
