@@ -1,3 +1,14 @@
+/*
+===========================================================
+CREATE TABLES SCRIPT:
+
+This script creates all the needed tables for the silver schema 
+and additionally truncates tables if they already exist within
+the database. The info within each table was subject to change
+due to the data cleaning involved with it.
+
+===========================================================
+*/
 
 IF OBJECT_ID ('silver.crm_cust_info','U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info
